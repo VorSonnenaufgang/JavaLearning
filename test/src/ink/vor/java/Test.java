@@ -1,6 +1,4 @@
-package ink.vor.java.juc;
-
-import java.util.concurrent.BlockingDeque;
+package ink.vor.java;
 
 /**
  * @author muquanrui
@@ -8,7 +6,7 @@ import java.util.concurrent.BlockingDeque;
  */
 public class Test {
     public static void main(String[] args) {
-        int time = 255 + 165 + 120 + 150 + 15 + 270 + 90 + 90 + 180 + 45 + 60;
+        int time = 105 + 105 + 60 + 90 + 180 + 165 + 45 + 75 + 195 + 75 + 510 + 255;
         System.out.println(time / 60);
         System.out.println(time % 60);
     }
