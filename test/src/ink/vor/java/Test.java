@@ -6,8 +6,24 @@ package ink.vor.java;
  */
 public class Test {
     public static void main(String[] args) {
-        int time = 105 + 105 + 60 + 90 + 180 + 165 + 45 + 75 + 195 + 75 + 510 + 255;
-        System.out.println(time / 60);
-        System.out.println(time % 60);
+        B b = new B();
+    }
+}
+
+class A {
+    static {
+        System.out.println("Static A");
+    }
+    public A() {
+        System.out.println("A");
+    }
+}
+
+class B extends A {
+    static {
+        System.out.println("Static B");
+    }
+    public B() {
+        System.out.println("B");
     }
 }

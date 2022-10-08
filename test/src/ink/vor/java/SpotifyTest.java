@@ -6,6 +6,7 @@ package ink.vor.java;
  */
 public class SpotifyTest {
     public static void main(String[] args) {
-        SpotifyUtil.getSpotifyAlbumCover("https://open.spotify.com/album/5EyIDBAqhnlkAHqvPRwdbX?si=4lCI0Pb-RmyhNajxoEpwqQ");
+        String url = "https://open.spotify.com/album/4kwxu2ivSzsZpxiPvhAoVx?si=Eri9pUqaTd241lalLqla9g";
+        SpotifyUtil.getSpotifyAlbumCover(url);
     }
 }

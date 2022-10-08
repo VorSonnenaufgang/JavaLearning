@@ -49,7 +49,7 @@ public class SpotifyUtil {
             while ((length = bis.read(buffer)) != -1) {
                 bos.write(buffer, 0, length);
             }
-
+            System.out.println("Download finished.");
         } catch(IOException e) {
             e.printStackTrace();
         } finally {
